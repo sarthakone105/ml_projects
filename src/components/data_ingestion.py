@@ -48,8 +48,8 @@ class DataIngestion:
         
 if __name__ == "__main__":
     
-    dirname = os.path.dirname(os.path.abspath(__file__))
-    os.chdir(dirname)
+    # dirname = os.path.dirname(os.path.abspath(__file__))
+    # os.chdir(dirname)
     
     obj = DataIngestion()
     train_data, test_data = obj.initiate_data_ingestion()
