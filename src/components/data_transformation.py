@@ -1,5 +1,5 @@
 import sys
-import data_ingestion 
+# import data_ingestion 
 from dataclasses import dataclass
 import numpy as np
 import pandas as pd
